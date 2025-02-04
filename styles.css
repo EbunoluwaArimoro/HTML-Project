@@ -1,0 +1,93 @@
+/* Set a global font for the page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style the navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the navbar items inline */
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f2cee6; /* Hover effect */
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and text */
+h1, h2 {
+    color: #210b2c;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Style the video */
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #7cdedc;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #55286f;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #210b2c;
+    color: white;
+    font-size: 14px;
+}
+
+footer img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
